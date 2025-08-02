@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fastapi-chat
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: ./start.sh
+    pythonVersion: 3.11.6
